@@ -1,0 +1,34 @@
+{
+  "name": "react-config-template",
+  "version": "0.0.1",
+  "description": "React + redux + HMR configuration example",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --config ./config/webpack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "spoluektov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.7.0"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.4.5",
+    "@hot-loader/react-dom": "^16.8.6",
+    "core-js": "^3.1.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.9.0",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1"
+  }
+}
